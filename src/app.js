@@ -1,5 +1,5 @@
 const express = require('express')
-const routes = require('./app/routes')
+const routes = require('./app/api/routes')
 const bodyParser = require('body-parser')
 const morgan = require('./lib/morgan')
 const app = express()
